@@ -28,29 +28,7 @@ The dataset used in this project is the IPL dataset, which includes details abou
 
 ## Mounting S3 Bucket
 
-The S3 bucket is mounted in Databricks using the AWS access key and secret key. The keys are stored in a CSV file that is uploaded manually to Databricks. Here is the code snippet for mounting the S3 bucket:
-'''
-file_type = "csv"
-first_row_header = "true"
-delimiter = ","
-
-aws_keys_df = spark.read.format (file_type)\
-.option("header",first_row_header )\
-.option("sep", delimiter)\
-.load("/FileStore/tables/aws_keys_csv.csv")
-
-from pyspark.sql.functions import *
-import urllib
-
-ACCESS_KEY = 'key'
-SECRET_KEY = 'key'
-Encoded_Secret_key = urllib.parse.quote(SECRET_KEY, "")
-
-AWS_S3_BUCKET = 'myiplbucket07'
-Mount_name = "/mnt/myiplbucket07"
-SourceUri = "s3n://{0}:{1}@{2}".format(ACCESS_KEY, Encoded_Secret_key, AWS_S3_BUCKET)
-dbutils.fs.mount(SourceUri, Mount_name)
-'''
+The S3 bucket is mounted in Databricks using the AWS access key and secret key. The keys are stored in a CSV file that is uploaded manually to Databricks. 
 
 Data Extraction: The IPL data is stored in an Amazon S3 bucket. This is the first step in the ETL pipeline where data is extracted from its source.
 
