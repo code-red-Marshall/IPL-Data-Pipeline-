@@ -2,6 +2,10 @@
 
 The project involves several stages, including data extraction, transformation, and loading (ETL), data warehousing, and data analysis. Here’s a high-level overview:
 
+![Subheading](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/6b4214b0-80f6-4896-8530-4a3a654061a5)
+
+
+
 Data Extraction: The IPL data is stored in an Amazon S3 bucket. This is the first step in the ETL pipeline where data is extracted from its source.
 
 Data Transformation: The extracted data is then loaded into Databricks, a platform for big data analytics and artificial intelligence. 
