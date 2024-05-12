@@ -20,6 +20,16 @@ Data Visualization: The results of the data analysis are then visualized using l
 
 ![1](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/72a159d8-e262-4f98-8f6f-c508a4ede80a)
 
+![2](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/27f45b8d-27a5-4277-bcc2-7be0ab74d422)
+
+![3](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/c018a3cc-0d36-4eaf-8fb1-5e04d110a98b)
+
+![4](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/53cb7f1e-7010-4a4e-852a-831ffa936d1e)
+
+![5](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/dc8c8f07-0590-4dde-97de-befb267043e2)
+
+![6](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/f7f6c8c8-c2c7-4f05-b2ab-377b7ceb81dd)
+
 
 This workflow allows for efficient processing and analysis of large datasets, and can be scaled up to handle even larger volumes of data.
 It also ensures that the data is clean, consistent, and ready for analysis. 
