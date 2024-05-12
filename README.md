@@ -18,6 +18,9 @@ The analysis includes calculating average runs, determining the most economical 
 
 Data Visualization: The results of the data analysis are then visualized using libraries like Matplotlib and Seaborn. These visualizations help in understanding the patterns and trends in the data.
 
+![1](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/72a159d8-e262-4f98-8f6f-c508a4ede80a)
+
+
 This workflow allows for efficient processing and analysis of large datasets, and can be scaled up to handle even larger volumes of data.
 It also ensures that the data is clean, consistent, and ready for analysis. 
 The use of SQL for data analysis allows for complex queries to be executed quickly, while the visualizations provide a clear and concise way to present the results.
