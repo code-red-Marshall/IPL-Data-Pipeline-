@@ -1,9 +1,11 @@
-![Screenshot 2024-05-12 124918](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/512c2fd4-57b6-45d1-a677-10c5d3673e80)
-
+![Untitled design (8)](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/38375fe0-73b6-47f9-8027-d68e0abc3398)
 
 # IPL Data Analysis using Apache Spark and Databricks
 This project demonstrates the use of Apache Spark for performing data analysis on the Indian Premier League (IPL) dataset. The data is stored in Amazon S3 and the analysis is performed using Databricks environment.
 The project involves several stages, including data extraction, transformation, and loading (ETL), data warehousing, and data analysis.
+
+![Screenshot 2024-05-12 124918](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/512c2fd4-57b6-45d1-a677-10c5d3673e80)
+
 
 ## Prerequisites
 - An AWS account with access to S3 services
