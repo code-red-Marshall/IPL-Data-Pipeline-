@@ -6,25 +6,25 @@ This project demonstrates the use of Apache Spark for performing data analysis o
 The project involves several stages, including data extraction, transformation, and loading (ETL), data warehousing, and data analysis.
 
 ## Prerequisites
-An AWS account with access to S3 services
-Databricks account
-IPL dataset  Link: https://data.world/raghu543/ipl-data-till-2017
+- An AWS account with access to S3 services
+- Databricks account
+- IPL dataset  Link: https://data.world/raghu543/ipl-data-till-2017
 
 ## Setup
-Upload the IPL dataset to your AWS S3 bucket.
-Store the AWS access key and secret key in a CSV file and upload it manually to Databricks.
+- Upload the IPL dataset to your AWS S3 bucket.
+- Store the AWS access key and secret key in a CSV file and upload it manually to Databricks.
 
 ## Dataset
 The dataset used in this project is the IPL dataset, which includes details about matches, players, teams, and ball-by-ball data. The dataset is stored in Amazon S3.
 
 
 ## Tools and Technologies
-Apache Spark: Used for data processing and analysis.
-Databricks: Provides an interactive workspace and runtime environment for running Spark.
-Amazon S3: Used as the data storage solution for the dataset.
-Python: The primary programming language used for writing the data processing and analysis code.
-SQL: Used for querying the data and performing analysis.
-Matplotlib and Seaborn: Used for data visualization.
+- Apache Spark: Used for data processing and analysis.
+- Databricks: Provides an interactive workspace and runtime environment for running Spark.
+- Amazon S3: Used as the data storage solution for the dataset.
+- Python: The primary programming language used for writing the data processing and analysis code.
+- SQL: Used for querying the data and performing analysis.
+- Matplotlib and Seaborn: Used for data visualization.
 
 ## Mounting S3 Bucket
 
@@ -63,21 +63,21 @@ Data Loading: After the transformations, the data is loaded into a data warehous
 Once the data is loaded into the data warehouse, it can be analyzed. SQL is used to query the data and generate insights. 
 The analysis includes:
 
-Calculating the total and average runs scored in each match and inning.
-Identifying high impact balls (either a wicket or more than 6 runs including extras).
-Extracting year, month, and day from the match date for more detailed time-based analysis.
-Categorizing win margins into ‘high’, ‘medium’, and ‘low’.
-Analyzing the impact of the toss: who wins the toss and the match.
-Normalizing and cleaning player names.
-Adding a ‘veteran_status’ column based on player age.
-Calculating years since debut.
-Identifying top scoring batsmen per season.
-Identifying the most economical bowlers in powerplay overs.
-Analyzing the impact of winning the toss on match outcomes.
-Calculating average runs scored by batsmen in winning matches.
-Analyzing distribution of scores by venue.
-Identifying the most frequent dismissal types.
-Analyzing team performance after winning the toss.
+- Calculating the total and average runs scored in each match and inning.
+- Identifying high impact balls (either a wicket or more than 6 runs including extras).
+- Extracting year, month, and day from the match date for more detailed time-based analysis.
+- Categorizing win margins into ‘high’, ‘medium’, and ‘low’.
+- Analyzing the impact of the toss: who wins the toss and the match.
+- Normalizing and cleaning player names.
+- Adding a ‘veteran_status’ column based on player age.
+- Calculating years since debut.
+- Identifying top scoring batsmen per season.
+- Identifying the most economical bowlers in powerplay overs.
+- Analyzing the impact of winning the toss on match outcomes.
+- Calculating average runs scored by batsmen in winning matches.
+- Analyzing distribution of scores by venue.
+- Identifying the most frequent dismissal types.
+- Analyzing team performance after winning the toss.
 
 ## Data Visualization 
 The results of the data analysis are then visualized using libraries like Matplotlib and Seaborn. These visualizations help in understanding the patterns and trends in the data.
