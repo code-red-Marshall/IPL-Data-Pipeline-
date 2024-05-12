@@ -13,11 +13,7 @@ The project involves several stages, including data extraction, transformation, 
 - Upload the IPL dataset to your AWS S3 bucket.
 - Store the AWS access key and secret key in a CSV file and upload it manually to Databricks.
 
-![Screenshot 2024-05-12 124918](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/512c2fd4-57b6-45d1-a677-10c5d3673e80)
-
-
-
-- ![Screenshot 2024-05-12 232605](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/bc31f08b-3c90-4ead-882b-317bc1ba1510)
+![Screenshot 2024-05-12 233351](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/d1e745a6-354a-4324-b2cb-ce16bc7b234d)
 
 
 ## Dataset
@@ -26,6 +22,9 @@ The dataset used in this project is the IPL dataset, which includes details abou
 
 ## Tools and Technologies
 - Apache Spark: Used for data processing and analysis.
+
+![Screenshot 2024-05-12 232605](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/bc31f08b-3c90-4ead-882b-317bc1ba1510)
+
 
 - Databricks: Provides an interactive workspace and runtime environment for running Spark.
 - Amazon S3: Used as the data storage solution for the dataset.
