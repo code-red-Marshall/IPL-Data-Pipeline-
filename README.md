@@ -2,7 +2,7 @@
 
 The project involves several stages, including data extraction, transformation, and loading (ETL), data warehousing, and data analysis. Here’s a high-level overview:
 
-![Subheading](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/6b4214b0-80f6-4896-8530-4a3a654061a5)
+![Screenshot 2024-05-12 124918](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/512c2fd4-57b6-45d1-a677-10c5d3673e80)
 
 
 
