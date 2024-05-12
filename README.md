@@ -16,6 +16,9 @@ The project involves several stages, including data extraction, transformation, 
 - Upload the IPL dataset to your AWS S3 bucket.
 - Store the AWS access key and secret key in a CSV file and upload it manually to Databricks.
 
+- ![Screenshot 2024-05-12 232605](https://github.com/code-red-Marshall/IPL-Data-Pipeline-/assets/82904501/bc31f08b-3c90-4ead-882b-317bc1ba1510)
+
+
 ## Dataset
 The dataset used in this project is the IPL dataset, which includes details about matches, players, teams, and ball-by-ball data. The dataset is stored in Amazon S3.
 
